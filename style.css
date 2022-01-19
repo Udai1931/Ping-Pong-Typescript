@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:black;
+    overflow: hidden;
+}
+
+.handle1{
+    height: 150px;
+    width: 40px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+
+.handle2{
+    height: 150px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+}
+
+.ball{
+    height: 3rem;
+    width: 3rem;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 330px;
+    left: 770px;
+    border-radius: 50%;
+    transform: translateX(-50%)
+}
+
+.score1{
+    position: absolute;
+    top: 1rem;
+    left: 25rem;
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.score2{
+    position: absolute;
+    top: 1rem;
+    right: 25rem;
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.middle{
+    position: absolute;
+    height: 100vh;
+    left: 50%;
+    border-right: 2px dashed white;
+
+}
